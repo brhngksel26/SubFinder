@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Who Is {{url}}</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">ThreatMonIT</a>
+    </nav>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">WhoIS</th>
+            <th scope="col">Sonuç</th>
+          </tr>
+        </thead>
+        <tbody>
+            
+          <tr>
+            <td>İsim</td>
+            <td>{{results.domain_name}}</td>
+          </tr>
+          <tr>
+            <td>Domain Id</td>
+            <td>{{results.domain__id}}</td>
+          </tr>
+          <tr>
+            <td>Registrar</td>
+            <td>{{results.registrar}}</td>
+          </tr>
+          <tr>
+            <td>Registrar Url</td>
+            <td>{{results.registrar_url}}</td>
+          </tr>
+          <tr>
+            <td>Registrant Name</td>
+            <td>{{results.registrant_name}}</td>
+          </tr>
+          <tr>
+            <td>Registrant State Province </td>
+            <td>{{results.registrant_state_province}}</td>
+          </tr>
+          <tr>
+            <td>Registrant Country</td>
+            <td>{{results.registrant_country}}</td>
+          </tr>
+          <tr>
+            <td>Name Servers </td>
+            <td>{{results.name_servers}}</td>
+          </tr>
+          <tr>
+            <td>Creation Date</td>
+            <td>{{results.creation_date}}</td>
+          </tr>
+          <tr>
+            <td>Expiration Date</td>
+            <td>{{results.expiration_date}}</td>
+          </tr>
+          <tr>
+            <td>Updated Date</td>
+            <td>{{results.updated_date}}</td>
+          </tr>
+
+          
+         
+         
+        </tbody>
+      </table>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

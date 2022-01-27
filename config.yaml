@@ -1,0 +1,15 @@
+appName: subDomainInfo
+logLevel: WARN
+
+apikey :
+  virustotal : "3c587cf1ecb5ba473da94627cf71ede8cf9749e9c5edfe79e931e60f92b7dfc3"
+
+files:
+  subDomainNames : "/home/burhan/projects/SubFinder/names.txt"
+
+database:
+  name : 'threatmonit'
+  user : 'burhan'
+  password : '1234' 
+  host : 'localhost'
+  dbConnectionString : dbname = 'threatmonit' user = 'burhan' host = 'localhost' password = '1234'
